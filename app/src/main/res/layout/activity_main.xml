@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context="com.andela.journal.MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" your email adress"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="125dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/user1"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="70dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Login"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_action_name"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/ic_action_lock2"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="144dp"
+        android:layout_height="46dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:textSize="20dp"
+        android:layout_height="44dp"
+        android:text="Dont have account sign up?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+</android.support.constraint.ConstraintLayout>
